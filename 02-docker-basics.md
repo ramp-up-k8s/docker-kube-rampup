@@ -11,4 +11,11 @@ To complete this, here are some questions that might help you get an idea of whe
 6. Could you run and interact with a multi-command container such as redis? 
 7.  Do you know how to build a Docker image including tag names, environtment variables, build args, resource constraints, etc.?
 
+In case you could not answer any of the above questions, here is a challenge for you. Do not forget that Docker needs to be installed on your machine. If you prefer to avoid this for now, login into [play-with-docker.com](https://labs.play-with-docker.com/) for getting a ready-to-run instance. However, you will need to install it locally for the rest of this ramp-up:
+
+1. **Pull a Redis image from Docker Hub and make it run**. Docker has a public repository with a bunch of Docker images with some dependencies already installed which will make you run your apps faster and easier. In this first interaction, you are required to download and run a container with Redis preinstalled. Once done, you will see what Redis shows as output when it is running. As you may know, there are some differences between running a program as usual against doing it as a daemon, how about running your Redis container in background?
+2. **Connect to the Redis CLI from your host**. Even though every Docker container has a default command, you could run multiple commands inside your container when possible. Redis brings two main commands, *redis-server* which runs the engine and *redis-cli* through which we can interact with that engine. Your goal is to get into the redis container shell and run *redis-cli* from inside. As a means to do so, you should know that Docker allows you to synchronize your terminal with the container I/O. Save and get some 
+3. Having a container running **in background** brings a tradeoff, you cannot watch the logs output at once. So, when you need to see what is happening inside the container, Docker lets you extract its logs. Now, your task is to save those logs into a file called *myredis.log*. 
+4. There are sometimes
+
 **Note**: This challenge is optional. Feel free to skip it if you are comfortable with Docker CLI commands.
