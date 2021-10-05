@@ -5,6 +5,7 @@ Once you get familiar with the Docker basic commands, it is time to start buildi
 For this challenge, your will have two goals:
 
 1. Download the *Movie Analyst* repos and add Dockerfiles able to build a fully configured image for running the apps. You have to take into account that these containers need some ports binded to your host machine in order to connect to each other.
-2. Now that you have your images ready, make them run synchronously ensuring that the API is responding to all the UI requests.  
+2. Now that you have your images ready, make them run synchronously ensuring that the API is responding to all the UI requests.
+3. Finally, upload both images to any container Registry such as *Docker Hub* or *ECR* properly tagged. 
 
-**Note**: This connection could be easily done by using a multi-container app definer, but this is an approach that we will treat leater.
+**Note**: This connection could be easily done by using a multi-container app definer like *Docker Compose*, but this is an approach that we will treat later.
