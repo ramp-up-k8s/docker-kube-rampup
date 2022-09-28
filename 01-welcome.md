@@ -10,13 +10,16 @@ Following the same methodology used for other ramp-ups on this platform, this br
 
 In order to complete the challenges and let you focus on what matters to us about this ramp-up, you will be provided with a project to work with. 
 
-### 1. Movie Analyst
-- This application is a web application based on a 3-tier architecture model developed in javascript.
-- For this application, you will have to write some code in order to make it work as expected. The app needs to communicate with the DB and retrieve the data from it.
+### 1. To-Do app
+- This application is a To-Do webapp based on a microservices architecture model where each service is developed in a different language: VueJS, Go, NodeJS, Springboot and Python.
+- For this application, you will not have to write any code in order to make it work as expected. But, you will find it is kind of tricky to orchestrate all of these services while trying to run all of them at once.
 
-~~~ python
-git clone https://github.com/juan-ruiz/movie-analyst-ui.git
+~~~ bash
+# using SSH
+git clone git@github.com:ramp-up-k8s/todo-app.git
 ~~~
-~~~ python
-git clone https://github.com/juan-ruiz/movie-analyst-api.git
+or 
+~~~ bash
+# using HTTPS
+git clone https://github.com/ramp-up-k8s/todo-app.git
 ~~~
