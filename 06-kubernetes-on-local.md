@@ -6,7 +6,7 @@ Although we have the app running in Kubernetes, this is just the beginning. We r
     1.  We can limit how much memory and CPU a single pod can use. Research about how to do it and implement it yourself.
     2.  Change the number of replicas to scale up the number of pods for one particular Deployment.
     3.  Choose a deployment strategy and argument why is this the best choice.
-    4.  When your deployment is running, list all the pods and select one. Run the command `kubectl delete pod pod_name -n <your_namespace>`. The pod will be deleted. List again all the pods. You should see that kubernetes creates a new pod. This happens because the Deployment controller makes sure that the number of replica that you specified are the replicas running.
-3. **Replace the way you expose the and change it for an ingress.** In the installation of Minikube you were requested to install an ingress controller, this for having a better way to expose your application endpoint to outside the cluster. Use this approach instead of using a service for this. In what scenario is this a better way?
+    4.  When your deployment is running, list all the pods and select one. Run the command `kubectl delete pod pod_name -n <your_namespace>`. The pod will be deleted. List again all the pods. You should see that Kubernetes creates a new pod. This happens because the Deployment controller makes sure that the number of replicas that you specified are the replicas running.
+3. **Replace the way you expose the and change it for an ingress.** In the installation of Kubernetes locally you were requested to install an ingress controller, this for having a better way to expose your application endpoint to outside the cluster. Use this approach instead of using a service for this. In what scenario is this a better way?
    
 **Note:** Remember to push all your work to a repository.
