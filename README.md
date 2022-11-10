@@ -1,2 +1,4 @@
-# docker-kube-rampup
-A repo for saving all the statements of the Docker-Kubernetes rampup.
+# docker-kube-rampup :whale2:
+Welcome to the Docker-Kubernetes rampup. 
+
+# [Start here](01-welcome.md)
