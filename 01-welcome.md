@@ -22,3 +22,5 @@ or
 # using HTTPS
 git clone https://github.com/ramp-up-k8s/todo-app.git
 ~~~
+
+## [Next step: Docker Basics](02-docker-basics.md)
